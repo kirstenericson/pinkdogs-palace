@@ -1,0 +1,65 @@
+/* CSS Document */
+a img{border:0;}
+
+div#content{width:623px; margin:0px auto 0px auto; text-align:center; font-size:12px;}
+div#head{background:#fff url(img/head.gif) left top; text-align:left;
+width:623px; height:47px; margin:15px auto 0px auto;}
+
+div#icon{float:left; padding-left:20px; padding-top:13px;width:56px; height:30px;
+background-position:center center; background-repeat:no-repeat;}
+
+div#c_ttl{float:left; width:230px; font-weight:bold;}
+div#c_ttl h1{font-weight:bold; font-size:12px; color:#444; padding: 15px 0 0 0; margin:0;}
+
+div#month{float:right;padding-right:20px;padding-top:21px;width:280px;font-size:12px;}
+
+
+div#chara{margin:20px auto 15px auto;}
+div#main{float:left; background-position:center top; background-repeat:no-repeat; width:46%;}
+div#ttl{float:right; background-repeat:no-repeat; width:54%;}
+
+
+
+div#items{width:600px; margin:0 auto;}
+div#items p{
+line-height: 1.3;
+margin:10px 0;
+font-size:12px;
+color:#714C32;
+}
+div#items p span{font-size:10px; color:#333;letter-spacing:0.1em; margin:3px 0px 0px 0px;}
+div#items strong{font-size:12px;}
+div.c{width:600px;padding:10px 0px;}
+div.c2_left{ float:left; width:300px;}
+div.c2_right{ float:right; width:300px;}
+
+div.c3_left{ float:left; width:200px;}
+div.c3_center{ float:left; width:200px;}
+div.c3_right{ float:right; width:200px;}
+
+div.line,div.line1,div.line2{background-position:center center; background-repeat:no-repeat;margin:15px auto 15px auto; clear:both;}
+
+.float_clear{clear:both;}
+
+
+/*footer*/
+div#footer{color: #0F90E5; width: 630px; margin: 10px auto; font-size: 10px;font-family:Verdana,Arial,Meiryo,"ÉÅÉCÉäÉI","Hiragino Kaku Gothic Pro","ÉqÉâÉMÉmäpÉS Pro W3",Osaka,"MS Gothic","ÇlÇr ÉSÉVÉbÉN",sans-serif; text-align:center;}
+div#footer img{float: left;}
+div#footer span{color: #F52477;}
+/*layout*/
+.left{float:left;}
+.right{float:right;}
+.clear{clear: both;}
+/*clear*/
+.cbox{zoom:100%;}
+.cbox:after{
+clear:both;
+content:"";
+display:block;
+width:0;
+height:0;
+visibility:hidden;
+}
+
+/*backtop*/
+p.totop{text-align:right; font-size:11px;}
